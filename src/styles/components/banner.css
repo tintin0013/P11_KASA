@@ -6,7 +6,7 @@
 	overflow: hidden;
 	height: 223px;
 	border-radius: 25px;
-	margin: 20px 200px;
+	margin: 30px 30px;
 }
 
 	.banner_slogan {
@@ -15,7 +15,7 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		width: 800px;
-		font-family: sans-serif;
+		/* font-family: sans-serif; */
 		font-weight: 400;
 		font-size: 48px;
 	}

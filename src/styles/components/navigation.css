@@ -1,0 +1,20 @@
+
+	.navbar__link {
+		display: inline-block;
+		text-decoration: none;
+		padding: 10px;
+		color: var(--red-color);
+		transition: 0.2s;
+		cursor: pointer;
+        /* font-family: sans-serif; */
+		font-weight: 400;
+		font-size: 24px;
+	}
+
+	.navbar_link--active {
+		border-bottom: 2px solid var(--red-color); 
+	}
+
+	.navbar__link:hover {
+		transform: translateY(-4px);
+	}

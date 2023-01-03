@@ -1,0 +1,40 @@
+.locationsGallery {
+    display: flex;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+    .article {
+        width: 340px;
+        height: 340px;
+        background: linear-gradient(var(--red-color), #ffffff);
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+        .article-h3 {
+            position: absolute;
+            bottom: 0;
+            color: #ffffff;
+            /* font-size: 1.2rem; */
+            padding: 10px;
+            /* font-family: sans-serif; */
+            font-weight: 400;
+            font-size: 18px;
+            z-index: 2;
+        }
+
+        .article-img {
+            width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            z-index: 3;
+            filter: brightness(90%);
+        }
