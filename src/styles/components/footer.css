@@ -6,17 +6,16 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
+/* 
 img {
     height: 39.44px;
     width: 122px;
-}
+} */
 
 .footer-text {
     color: white;
-    /* font-family: sans-serif; */
     font-weight: 400;
     font-size: 24px;
 }

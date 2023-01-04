@@ -12,16 +12,13 @@
 }
 
 .error-oups {
-    /* font-family: sans-serif; */
     color: var(--red-color);
     font-weight: 400;
     font-size: 36px;
 }
 
 .error-return {
-    /* font-family: sans-serif; */
     color: var(--red-color);
     font-weight: 400;
     font-size: 18px;
-
 }
