@@ -6,3 +6,72 @@
     height: 68px;
     margin: 30px 30px 30px 30px;
 }
+
+.logo-header {
+    height: 70px;
+}
+
+.navbar__link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--red-color);
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.navbar_link--active {
+    border-bottom: 2px solid var(--red-color);
+}
+
+.navbar__link:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width:830px) {
+
+    .logo-header {
+        height: 55px;
+    }
+
+    .navbar__link {
+        font-size: 18px;
+    }
+
+    .header--about {
+        width: 90%;
+        margin: auto;
+    }
+
+    .header--error {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:470px) {
+
+    .header {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .header--home {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .logo-header {
+        height: 40px;
+    }
+
+    .navbar__link {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .navbar_link--active {
+        border-bottom: 1px solid var(--red-color);
+    }
+}

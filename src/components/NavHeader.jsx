@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/components/navigation.css"
 
-const Navigation = () => {
+const NavHeader = () => {
 	return (
 		<nav className="navigation">
 			<NavLink
@@ -25,4 +24,4 @@ const Navigation = () => {
 	);
 };
 
-export default Navigation;
+export default NavHeader;

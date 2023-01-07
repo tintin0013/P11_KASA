@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import VectorDown from "../assets/VectorDown.png";
 import VectorUp from "../assets/VectorUp.png";
-import "../styles/components/dropMenu.css"
+import "../styles/components/collapse.css"
 
-const DropMenu = ({ title, content }) => {
+const Collapse = ({ title, content }) => {
     const [expanded, setExpanded] = useState(false);
 
     const toggleExpand = () => {
@@ -11,16 +11,16 @@ const DropMenu = ({ title, content }) => {
     };
 
     return (
-        <div className="dropmenu">
-            <div className="dropheader" onClick={toggleExpand}>
+        <div className="Collapse">
+            <div className="Collapse-header" onClick={toggleExpand}>
                 <span>{title}</span>
-                <img className="dropImg" src={expanded ? VectorUp : VectorDown} alt="Chevron" />
+                <img className="Collapse-Img" src={expanded ? VectorUp : VectorDown} alt="Chevron" />
             </div>
-            <div className={expanded ? "dropmenu-expanded" : "dropmenu-hidden"}>
+            <div className={expanded ? "Collapse-expanded" : "Collapse-hidden"}>
                 {content}
             </div>
         </div>
     );
 };
 
-export default DropMenu;
+export default Collapse;

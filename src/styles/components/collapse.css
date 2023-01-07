@@ -1,0 +1,63 @@
+.Collapse {
+    width: 95%;
+}
+
+.Collapse-header {
+    background-color: #ff6060;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.Collapse-expanded {
+    display: block;
+    background-color: #f6f6f6;
+    padding: 1rem;
+    color: var(--red-color);
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.Collapse-hidden {
+    display: none;
+}
+
+@media screen and (max-width:830px) {
+
+    .location-Collapse-header {
+        justify-content: center;
+    }
+
+    .Collapse {
+        width: 80%;
+    }
+
+    .Collapse-header {
+        font-size: 18px;
+    }
+
+    .Collapse-expanded {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:470px) {
+
+    .Collapse {
+        width: 90%;
+    }
+
+    .Collapse-header {
+        font-size: 13px;
+    }
+
+    .Collapse-expanded {
+        font-size: 12px;
+    }
+}

@@ -20,13 +20,69 @@
 	font-size: 48px;
 }
 
+h2.banner_slogan {
+	color: white;
+}
+
 .banner_img {
 	opacity: 0.5;
 	width: 100%;
-	height: 223px
+	height: 223px;
+	object-fit: cover;
+
+}
+
+.bannerAbout {
+	position: relative;
+	color: white;
+	overflow: hidden;
+	height: 223px;
+	border-radius: 25px;
+	margin: 30px 30px;
 }
 
 .banner_about_img {
 	width: 100%;
-	height: 223px
+	height: 223px;
+	object-fit: cover;
+
+}
+
+@media screen and (max-width:830px) {
+
+	.banner_slogan {
+		font-weight: 400;
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:470px) {
+
+	.banner {
+		color: white;
+		background: black;
+		overflow: hidden;
+		height: 111px;
+		margin: 10px 0;
+		border-radius: 15px;
+	}
+
+	.banner_img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.bannerAbout {
+		color: white;
+		background: black;
+		overflow: hidden;
+		margin: 10px 0;
+		border-radius: 15px;
+	}
+
+	.banner_about_img {
+		width: 100%;
+		height: 100%;
+
+	}
 }

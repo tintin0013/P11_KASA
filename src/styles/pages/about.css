@@ -5,31 +5,3 @@
     margin-top: 20px;
     gap: 2rem;
 }
-
-.dropheader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    color: white;
-    /* font-family: sans-serif; */
-    font-weight: 400;
-    font-size: 22px;
-    border-radius: 10px;
-}
-
-.dropImg {
-    width: 30px;
-    height: 20px;
-}
-
-.dropmenu-expanded {
-    background-color: #f6f6f6;
-    padding: 1rem;
-    color: var(--red-color);
-    /* color: $color-1;
-    font-family: $font-1; */
-    /* font-family: sans-serif; */
-    font-size: 22px;
-    border-radius: 10px;
-}

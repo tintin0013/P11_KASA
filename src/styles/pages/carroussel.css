@@ -1,0 +1,156 @@
+.main-location {
+    display: flex;
+    flex-direction: column;
+}
+
+.location--page {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bio-location {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.h2-location {
+    color: var(--red-color);
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.p-location {
+    color: var(--red-color);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bio-host {
+    display: flex;
+    align-items: center;
+}
+
+.bio-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.img-bio {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.location-Collapse {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.location-Collapse-header {
+    display: flex;
+    width: 45%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.ul-bio-tag {
+    display: flex;
+}
+
+.li-bio-tag {
+    background-color: var(--red-color);
+    padding: 5px 25px;
+    margin-right: 8px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.bio-tag-ratings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:830px) {
+
+    .h2-location {
+        font-size: 24px;
+        margin-bottom: 0.8rem;
+    }
+
+    .p-location {
+        font-size: 16px;
+    }
+
+    .location--page {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .location-Collapse {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:470px) {
+
+    .h2-location {
+        font-size: 18px;
+        margin-bottom: 0.8rem;
+    }
+
+    .p-location {
+        font-size: 14px;
+    }
+
+    .bio-host {
+        align-items: center;
+    }
+
+    .p-bio-name {
+        font-size: 12px;
+    }
+
+    .img-bio {
+        width: 32px;
+        height: 32px;
+    }
+
+    .bio-tag-ratings {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .stars--rating {
+        display: flex;
+        width: 18px;
+        height: 18px;
+    }
+
+    .li-bio-tag {
+        font-size: 10px;
+    }
+
+    .location-Collapse {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .location-Collapse-header {
+        width: 100%;
+
+    }
+}

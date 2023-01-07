@@ -8,14 +8,20 @@
     align-items: center;
 }
 
-/* 
-img {
-    height: 39.44px;
-    width: 122px;
-} */
-
 .footer-text {
     color: white;
     font-weight: 400;
     font-size: 24px;
+}
+
+@media screen and (max-width:470px) {
+
+    .footer-img {
+        height: 20px;
+        width: 61px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
 }
