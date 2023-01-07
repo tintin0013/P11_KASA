@@ -24,7 +24,6 @@ const Carroussel = () => {
             .then((data) => {
                 const loca = data.find((item) => item.id === id);
                 if (loc.id !== loca.id) {
-                    console.log(loca.id)
                     setLoc({ ...loc, ...loca });
                 }
             })
