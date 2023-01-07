@@ -6,7 +6,7 @@ Démarrer le projet React et développer l’ensemble de l’application, les co
 
 ### Contraintes techniques :
 
-  *** Utilisation de React ***
+###  *** Utilisation de React ***
 
 - Il est impératif d’utiliser ces éléments de React pour un code de qualité :
  
@@ -27,7 +27,7 @@ Démarrer le projet React et développer l’ensemble de l’application, les co
 les listes, en itérant dessus, par exemple avec map. Il faut les utiliser
 autant que possible.
 
-  *** Utilisation de React Router pour la navigation entre les pages ***
+###  *** Utilisation de React Router pour la navigation entre les pages ***
 
 - Les paramètres des routes sont gérés par React Router dans l'URL
 pour récupérer les informations de chaque logement.
