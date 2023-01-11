@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Rating from "../components/Rating";
@@ -17,12 +17,16 @@ const Carroussel = () => {
         host: { name: "", picture: "" },
     });
     const { id } = useParams();
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch("../db.json")
             .then((response) => response.json())
             .then((data) => {
                 const loca = data.find((item) => item.id === id);
+                if (!loca) {
+                    navigate("../pages/Error.jsx")
+                }
                 if (loc.id !== loca.id) {
                     setLoc({ ...loc, ...loca });
                 }
